@@ -1,0 +1,83 @@
+# ==============================================
+# Unity 引擎自动生成的文件/目录
+# ==============================================
+# 主库文件（Unity 自动生成，无需提交）
+Library/
+# 本地缓存（包含场景、资源的本地配置）
+LocalBuilds/
+# 临时文件（编译、运行时的临时数据）
+Temp/
+# 日志文件
+Logs/
+# 打包产物（Build 文件夹，体积大且无需提交）
+Build/
+# 自动保存的场景/资源（Unity 崩溃恢复用）
+Autosaves/
+# Unity 2019+ 的包缓存（离线包）
+Library/PackageCache/
+# 资源索引文件
+*.asset.meta*
+*.prefab.meta*
+
+# ==============================================
+# Unity 编辑器配置（本地个性化设置）
+# ==============================================
+# 编辑器偏好设置（每个人的布局/快捷键不同）
+Library/EditorUserSettings.asset
+# 项目设置的本地覆盖（比如本机的渲染管线配置）
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/QualitySettings.asset
+# 本地用户配置（包含登录信息、编辑器布局）
+UserSettings/
+
+# ==============================================
+# 编译/构建产物
+# ==============================================
+# DLL 文件（编译后的程序集）
+*.dll
+*.pdb
+*.mdb
+# EXE 可执行文件
+*.exe
+# 安卓/iOS 构建中间产物
+Temp/StagingArea/
+obj/
+bin/
+# macOS 应用包
+*.app
+
+# ==============================================
+# 第三方 IDE/工具生成的文件
+# ==============================================
+# Visual Studio 相关（和你之前的项目通用）
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ipch
+# VS Code 配置
+.vscode/
+# Rider 编辑器配置
+.idea/
+*.sln.iml
+# macOS 系统文件
+.DS_Store
+# Windows 系统文件
+Thumbs.db
+desktop.ini
+
+# ==============================================
+# 可选：根据项目补充（按需添加）
+# ==============================================
+# 大资源文件（如果用 Git LFS 管理，可注释掉）
+# *.fbx
+# *.png
+# *.mp4
+# *.wav
+# 测试/调试文件
+TestResults/
+Debug/
+# 自定义的本地配置文件
+*.local
